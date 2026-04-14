@@ -48,6 +48,9 @@ h1,h2,h3,h4,h5{font-family:var(--font-heading);text-transform:uppercase;letter-s
 .hero p{font-size:1.15rem;color:var(--text-secondary);max-width:700px;margin:0 auto 2rem}
 .hero-cta{display:inline-block;background:var(--accent);color:var(--white);padding:.8rem 2rem;border-radius:var(--radius);font-weight:600;font-size:1rem;transition:all .2s;text-transform:uppercase;letter-spacing:1px}
 .hero-cta:hover{background:var(--accent-dark);color:var(--white);transform:translateY(-2px);box-shadow:0 4px 15px rgba(192,133,74,.4)}
+.hero.hero-split{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:1.05fr .95fr;gap:2rem;align-items:center;text-align:left}
+.hero.hero-split .hero-copy p{margin:0 0 2rem}
+.hero.hero-split .hero-art img{width:100%;height:auto;filter:drop-shadow(0 20px 40px rgba(0,0,0,.35))}
 
 /* ===== PAGE HERO (article pages) ===== */
 .page-hero{background:linear-gradient(135deg,var(--charcoal) 0%,#2a2218 100%);padding:3rem 1.5rem;text-align:center;border-bottom:3px solid var(--accent)}

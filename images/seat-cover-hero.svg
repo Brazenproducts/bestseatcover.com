@@ -1,0 +1,35 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1A1A"/>
+      <stop offset="1" stop-color="#2D2116"/>
+    </linearGradient>
+    <linearGradient id="seat" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D6A16C"/>
+      <stop offset="1" stop-color="#8C5C35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1340" cy="160" r="220" fill="#C0854A" fill-opacity="0.14"/>
+  <circle cx="220" cy="760" r="260" fill="#4A7C4F" fill-opacity="0.12"/>
+  <g opacity="0.92">
+    <rect x="420" y="250" width="320" height="360" rx="42" fill="#262626" stroke="#C0854A" stroke-width="6"/>
+    <rect x="450" y="285" width="260" height="140" rx="26" fill="url(#seat)"/>
+    <rect x="450" y="445" width="260" height="130" rx="26" fill="url(#seat)"/>
+    <rect x="500" y="180" width="160" height="90" rx="28" fill="#262626" stroke="#C0854A" stroke-width="6"/>
+    <path d="M448 330H712" stroke="#E9C39C" stroke-width="4" stroke-dasharray="10 10"/>
+    <path d="M448 490H712" stroke="#E9C39C" stroke-width="4" stroke-dasharray="10 10"/>
+    <circle cx="500" cy="610" r="14" fill="#C0854A"/>
+    <circle cx="660" cy="610" r="14" fill="#C0854A"/>
+  </g>
+  <g opacity="0.78">
+    <rect x="820" y="310" width="230" height="250" rx="26" fill="#232323" stroke="#4A7C4F" stroke-width="5"/>
+    <rect x="845" y="340" width="180" height="80" rx="14" fill="#466D49"/>
+    <rect x="845" y="438" width="180" height="95" rx="18" fill="#355738"/>
+    <path d="M875 340V533" stroke="#D8E6D9" stroke-width="3" stroke-dasharray="8 8"/>
+    <path d="M995 340V533" stroke="#D8E6D9" stroke-width="3" stroke-dasharray="8 8"/>
+  </g>
+  <text x="120" y="150" fill="#F5E7D8" font-family="Oswald, Arial, sans-serif" font-size="84" font-weight="700">SEAT COVER</text>
+  <text x="120" y="230" fill="#C0854A" font-family="Oswald, Arial, sans-serif" font-size="84" font-weight="700">RANKINGS</text>
+  <text x="120" y="310" fill="#A9A9A9" font-family="Inter, Arial, sans-serif" font-size="32">Jeep, Toyota, Bronco, and truck protection that actually lasts.</text>
+</svg>

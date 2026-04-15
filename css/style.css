@@ -574,3 +574,16 @@ h1,h2,h3,h4,h5{font-family:var(--font-heading);text-transform:uppercase;letter-s
 .review-compact-summary .compact-stars {
   color: #F59E0B;
 }
+
+/* ── Accordion card compat for new HTML structure ── */
+.review-summary-info { flex: 1; min-width: 0; }
+.review-summary-info h3 { font-size: 0.95rem !important; margin: 0 !important; line-height: 1.3; }
+.compact-meta { font-size: 0.82rem; opacity: 0.85; margin-top: 2px; display: flex; gap: 8px; flex-wrap: wrap; }
+.compact-rating { color: var(--accent-yellow); }
+.compact-price { color: var(--accent-light); font-weight: 700; }
+.btn-sm { padding: 5px 10px !important; font-size: 0.78rem !important; white-space: nowrap; flex-shrink: 0; }
+@media(min-width:769px) {
+  .review-detail-toggle { display: none !important; }
+  .review-detail-body.collapsed { max-height: none !important; }
+  .review-detail-body { max-height: none !important; }
+}

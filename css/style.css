@@ -587,3 +587,14 @@ h1,h2,h3,h4,h5{font-family:var(--font-heading);text-transform:uppercase;letter-s
   .review-detail-body.collapsed { max-height: none !important; }
   .review-detail-body { max-height: none !important; }
 }
+
+
+/* Buy Button Styles */
+.buy-btn{display:inline-block;padding:12px 24px;border-radius:6px;font-weight:700;font-size:15px;text-decoration:none;text-align:center;transition:opacity .2s,transform .1s;margin:8px 4px;cursor:pointer}
+.buy-btn:hover{opacity:.85;transform:translateY(-1px)}
+.buy-btn-primary{background:#e8600a;color:#fff !important}
+.buy-btn-amazon{background:#f0c14b;color:#111 !important;border:1px solid #a88734}
+.buy-btn-store{background:#2563eb;color:#fff !important}
+.buy-btn-bullstrap{background:#1a1a1a;color:#fff !important}
+.card-buttons{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.card-buttons a{flex:1;min-width:120px;text-align:center;font-size:13px;padding:10px 12px}

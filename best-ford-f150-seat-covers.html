@@ -18,7 +18,29 @@
 .buy-btn-bullstrap{background:#1a1a1a;color:#fff !important}
 .card-buttons{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
 .card-buttons a{flex:1;min-width:120px;text-align:center;font-size:13px;padding:10px 12px}
-</style></head>
+</style><style>
+/* === VISUAL OVERHAUL ENHANCEMENTS === */
+html{scroll-behavior:smooth}
+.hero{background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1400&q=80') center/cover no-repeat!important;min-height:400px;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#fff!important;position:relative}
+.hero *{color:#fff!important}
+.hero h1,.hero h2{text-shadow:0 2px 8px rgba(0,0,0,.4)}
+.hero p{text-shadow:0 1px 4px rgba(0,0,0,.3)}
+.stars{color:#F59E0B;font-size:1rem;letter-spacing:1px;margin-bottom:4px}
+.stars .count{color:#64748b;font-size:.8rem;margin-left:4px;letter-spacing:0}
+.pick-badge{display:inline-block;background:linear-gradient(135deg,#E8600A,#F59E0B);color:#fff;padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.card,.cd{transition:transform .2s,box-shadow .2s!important}
+.card:hover,.cd:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.12)!important}
+.updated-badge{display:inline-block;background:#ECFDF5;color:#065F46;padding:4px 12px;border-radius:20px;font-size:.78rem;font-weight:600;margin:8px 0}
+.back-to-top{position:fixed;bottom:24px;right:24px;background:#2563EB;color:#fff;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;text-decoration:none!important;box-shadow:0 4px 12px rgba(37,99,235,.4);opacity:0;transition:opacity .3s;z-index:999}
+.back-to-top.visible{opacity:1}
+header,nav{transition:box-shadow .3s}
+header.scrolled,nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.1)!important}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;text-align:left;margin-bottom:24px}
+.footer-col h4{font-size:.9rem;margin-bottom:12px;opacity:.9}
+.footer-col a{display:block;color:#94A3B8;font-size:.85rem;margin-bottom:6px;text-decoration:none}
+.footer-col a:hover{color:#fff}
+</style>
+</head>
 <body>
 <header class="site-header"><div class="header-inner"><a class="logo" href="index.html">BEST<span>SEAT</span>COVER</a><button aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle">☰</button><nav class="main-nav" role="navigation"><ul><li><a href="index.html">Home</a></li><li><a href="best-jeep-seat-covers.html">Jeep</a></li><li><a href="best-toyota-tacoma-seat-covers.html">Tacoma</a></li><li><a href="best-toyota-4runner-seat-covers.html">4Runner</a></li><li><a href="best-ford-bronco-seat-covers.html">Bronco</a></li><li><a href="best-truck-seat-covers.html">Trucks</a></li><li><a href="best-seat-covers-for-dogs.html">Dogs</a></li><li><a href="best-seat-covers-2026.html">2026 Picks</a></li><li><a href="buyers-guide.html">Buyer's Guide</a></li><li><a href="about.html">About</a></li></ul></nav></div></header>
 <div class="breadcrumbs"><a href="index.html">Home</a> / <a href="best-truck-seat-covers.html">Trucks</a> / Best Ford F-150 Seat Covers</div>
@@ -139,5 +161,13 @@
 <footer class="site-footer"><div class="footer-inner"><div class="footer-col"><h4>Best Seat Cover</h4><p>Independent seat cover rankings for Broncos, Jeeps, trucks, SUVs, and dog owners.</p></div><div class="footer-col"><h4>Popular Pages</h4><ul><li><a href="best-jeep-seat-covers.html">Jeep Seat Covers</a></li><li><a href="best-toyota-tacoma-seat-covers.html">Tacoma Seat Covers</a></li><li><a href="best-seat-covers-2026.html">Best Seat Covers 2026</a></li></ul></div><div class="footer-col"><h4>Guides</h4><ul><li><a href="buyers-guide.html">Buyer's Guide</a></li><li><a href="about.html">About</a></li></ul></div><div class="footer-col"><h4>Network</h4><p>Part of the <a href="https://www.whatarebest.com" rel="noopener" target="_blank">What Are Best</a> review network.</p></div></div><div class="affiliate-disclosure"><p><strong>Affiliate Disclosure:</strong> BestSeatCover.com is a participant in the Amazon Services LLC Associates Program. We may earn commissions from qualifying purchases. Bartact links go directly to Bartact.com.</p></div><div class="footer-bottom"><p>© 2026 BestSeatCover.com — All rights reserved. | <a href="about.html">About</a></p></div></footer>
 <div class="network-links"><strong>What Are Best Review Network:</strong> <a href="https://whatarebest.com">What Are Best</a> · <a href="https://bestseatcover.com">Best Seat Covers</a> · <a href="https://jeepseatcover.com">Jeep Seat Covers</a> · <a href="https://bestbroncoaccessories.com">Bronco Accessories</a> · <a href="https://besttruckaccessories.com">Truck Accessories</a> · <a href="https://besttonneaucovers.com">Tonneau Covers</a> · <a href="https://petwearhouse.com">Pet Wearhouse</a> · <a href="https://bestfirestick.com">Best Firestick</a> · <a href="https://bestcordlesstools.com">Cordless Tools</a> · <a href="https://limitstraps.com">Limit Straps</a></div>
 <script src="js/main.js"></script>
+
+<a href="#" class="back-to-top" id="btt" aria-label="Back to top">↑</a>
+<script>
+(function(){var b=document.getElementById('btt'),h=document.querySelector('header,nav');
+window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400);if(h)h.classList.toggle('scrolled',window.scrollY>50)});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})})})();
+</script>
+
 </body>
 </html>

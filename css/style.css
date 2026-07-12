@@ -598,3 +598,8 @@ h1,h2,h3,h4,h5{font-family:var(--font-heading);text-transform:uppercase;letter-s
 .buy-btn-bullstrap{background:#1a1a1a;color:#fff !important}
 .card-buttons{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
 .card-buttons a{flex:1;min-width:120px;text-align:center;font-size:13px;padding:10px 12px}
+
+/* ── Fix: always show review body content — images visible on all devices ── */
+.review-detail-body.collapsed { max-height: none !important; overflow: visible !important; }
+.review-detail-body { max-height: none !important; }
+.review-detail-toggle { display: none !important; }
